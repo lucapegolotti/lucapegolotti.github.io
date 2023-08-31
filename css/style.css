@@ -1,0 +1,125 @@
+.intro {
+    font-size: large;
+}
+
+@media only screen and (max-width: 970px) {
+    .intro {
+        margin-top: 20px;
+    }
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+hr {
+    width:50%;
+    border: 1px solid white;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+a {
+    color: rgb(255, 93, 190);
+}
+
+a:hover {
+    color: rgb(255, 175, 223);
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 40px;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.section-subtitle {
+    font-size: large;
+}
+
+.publication-text {
+    font-size: large;
+}
+
+@media only screen and (max-width: 970px) {
+    .publication-text {
+        margin-top: 20px;
+    }
+}
+
+.publication {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.paper-img {
+    border: 1px solid rgb(255, 93, 190);
+}
+
+@media only screen and (max-width: 970px) {
+    .paper-img {
+        margin-top: 20px;
+    }
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  sup {
+    color: rgb(255, 93, 190);
+    font-weight: 600;
+  }
+
+  .social-icon {
+    color: white;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .social-icon:hover {
+    color:rgb(93, 107, 255);
+    transition-duration: 500ms;
+  }

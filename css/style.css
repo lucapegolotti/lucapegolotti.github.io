@@ -104,3 +104,30 @@ transition-duration: 500ms;
     color: white;
     font-weight: bold;
 }
+
+.talk-text {
+    font-size: large
+}
+
+.talk-date {
+    font-size: large;
+    font-style: italic;
+    text-align: right;
+}
+
+@media only screen and (max-width: 970px) {
+    .talk-date {
+        font-size: large;
+        font-style: italic;
+        text-align: left;
+    }
+}
+
+.talk {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    text-decoration: underline;
+}

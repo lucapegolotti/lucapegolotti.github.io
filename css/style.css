@@ -153,3 +153,9 @@ sup {
     color:rgb(93, 107, 255);
     transition-duration: 500ms;
 }
+
+.gallery-item {
+    width: 200px;
+    padding: 5px;
+  }
+  

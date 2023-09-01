@@ -14,12 +14,16 @@
     font-size: 60px;
     padding-top: 20px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .subtitle {
     text-align: center;
     width: 100%;
     font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -32,7 +36,7 @@ body {
     color: white;
 }
 
-a {
+.link {
     color: rgb(255, 93, 190);
 }
 
@@ -82,22 +86,22 @@ a:hover {
 }
 
 sup {
-color: rgb(255, 93, 190);
-font-weight: 600;
+    color: rgb(255, 93, 190);
+    font-weight: 600;
 }
 
 .social-icon {
-color: white;
-font-size: 40px;
-padding-left: 30px;
-padding-right: 30px;
-padding-top: 20px;
-padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .social-icon:hover {
-color:rgb(93, 107, 255);
-transition-duration: 500ms;
+    color:rgb(93, 107, 255);
+    transition-duration: 500ms;
 }
 
 .paper-title {
@@ -130,4 +134,22 @@ transition-duration: 500ms;
 
 .highlight {
     text-decoration: underline;
+}
+
+.footer {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color:  rgb(22, 22, 22);
+}
+
+.menu-item {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color:rgb(93, 107, 255);
+    transition-duration: 500ms;
 }

@@ -106,6 +106,16 @@
                         class="link">Code</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-gnn1d"
+                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        Reduced-order models based on physics are a popular choice in cardiovascular modeling due to their efficiency, but they may experience reduced accuracy when working with anatomies that contain numerous junctions or pathological conditions. We develop one-dimensional reduced-order models that simulate blood flow dynamics using a graph neural network trained on three-dimensional hemodynamic simulation data. Given the initial condition of the system, the network iteratively predicts the pressure and flow rate at the vessel centerline nodes. Our numerical results demonstrate the accuracy and generalizability of our method in physiological geometries comprising a variety of anatomies and boundary conditions. Our findings demonstrate that our approach can achieve errors below 2% and 3% for pressure and flow rate, respectively, provided there is adequate training data. As a result, our method exhibits superior performance compared to physics-based one-dimensional models, while maintaining high efficiency at inference time.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -120,6 +130,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-beyond"
+                           class="abstract-extender">Abstract <i id="arrow-beyond" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-beyond" class="abstract-text">
+                        Physics-based computational models of the cardiovascular system are increasingly used to simulate hemodynamics, tissue mechanics, and physiology in evolving healthy and diseased states. While predictive models using computational fluid dynamics (CFD) originated primarily for use in surgical planning, their application now extends well beyond this purpose. In this review, we describe an increasingly wide range of modeling applications aimed at uncovering fundamental mechanisms of disease progression and development, performing model-guided design, and generating testable hypotheses to drive targeted experiments. Increasingly, models are incorporating multiple physical processes spanning a wide range of time and length scales in the heart and vasculature. With these expanded capabilities, clinical adoption of patient-specific modeling in congenital and acquired cardiovascular disease is also increasing, impacting clinical care and treatment decisions in complex congenital heart disease, coronary artery disease, vascular surgery, pulmonary artery disease, and medical device design. In support of these efforts, we discuss recent advances in modeling methodology, which are most impactful when driven by clinical needs. We describe pivotal recent developments in image processing, fluid–structure interaction, modeling under uncertainty, and reduced order modeling to enable simulations in clinically relevant timeframes. In all these areas, we argue that traditional CFD alone is insufficient to tackle increasingly complex clinical and biological problems across scales and systems. Rather, CFD should be coupled with appropriate multiscale biological, physical, and physiological models needed to produce comprehensive, impactful models of mechanobiological systems and complex clinical scenarios. With this perspective, we finally outline open problems and future challenges in the field.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -134,6 +154,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-automated"
+                           class="abstract-extender">Abstract <i id="arrow-automated" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-automated" class="abstract-text">
+                        Three-dimensional (3D) cardiovascular fluid dynamics simulations typically require hours to days of computing time on a high-performance computing cluster. One-dimensional (1D) and lumped-parameter zero-dimensional (0D) models show great promise for accurately predicting blood bulk flow and pressure waveforms with only a fraction of the cost. They can also accelerate uncertainty quantification, optimization, and design parameterization studies. Despite several prior studies generating 1D and 0D models and comparing them to 3D solutions, these were typically limited to either 1D or 0D and a singular category of vascular anatomies. This work proposes a fully automated and openly available framework to generate and simulate 1D and 0D models from 3D patient-specific geometries, automatically detecting vessel junctions and stenosis segments. Our only input is the 3D geometry; we do not use any prior knowledge from 3D simulations. All computational tools presented in this work are implemented in the open-source software platform SimVascular. We demonstrate the reduced-order approximation quality against rigid-wall 3D solutions in a comprehensive comparison with N = 72 publicly available models from various anatomies, vessel types, and disease conditions. Relative average approximation errors of flows and pressures typically ranged from 1% to 10% for both 1D and 0D models, measured at the outlets of terminal vessel branches. In general, 0D model errors were only slightly higher than 1D model errors despite requiring only a third of the 1D runtime. Automatically generated ROMs can significantly speed up model development and shift the computational load from high-performance machines to personal computers.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -148,6 +178,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-dnnaccurately"
+                           class="abstract-extender">Abstract <i id="arrow-dnnaccurately" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-dnnaccurately" class="abstract-text">
+                        Characterizing left ventricle (LV) systolic function in the presence of an LV assist device (LVAD) is extremely challenging. We developed a framework comprising a deep neural network (DNN) and a 0D model of the cardiovascular system to predict parameters of LV systolic function. DNN input data were systemic and pulmonary arterial pressure signals, and rotation speeds of the device. Output data were parameters of LV systolic function, including end-systolic maximal elastance (Emax,lv), a variable essential for adequate hemodynamic assessment of the LV. A 0D model of the cardiovascular system, including a wide range of LVAD settings and incorporating the whole spectrum of heart failure, was used to generate data for the training procedure of the DNN. The DNN predicted Emax,lv with a mean relative error of 10.1%, and all other parameters of LV function with a mean relative error of &lt;13%. The framework was then able to retrieve a number of LV physiological variables (i.e., pressures, volumes, and ejection fraction) with a mean relative error of &lt;5%. Our method provides an innovative tool to assess LV hemodynamics under device assistance, which could be helpful for a better understanding of LV-LVAD interactions, and for therapeutic optimization.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -168,6 +208,16 @@
                         class="link">Code</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-mor"
+                           class="abstract-extender">Abstract <i id="arrow-mor" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-mor" class="abstract-text">
+                        We are interested in a reduced order method for the efficient simulation of blood flow in arteries. The blood dynamics is modeled by means of the incompressible Navier–Stokes equations. Our algorithm is based on an approximated domain-decomposition of the target geometry into a number of subdomains obtained from the parametrized deformation of geometrical building blocks (e.g., straight tubes and model bifurcations). On each of these building blocks, we build a set of spectral functions by Proper Orthogonal Decomposition of a large number of snapshots of finite element solutions (offline phase). The global solution of the Navier–Stokes equations on a target geometry is then found by coupling linear combinations of these local basis functions by means of spectral Lagrange multipliers (online phase). Being that the number of reduced degrees of freedom is considerably smaller than their finite element counterpart, this approach allows us to significantly decrease the size of the linear system to be solved in each iteration of the Newton–Raphson algorithm. We achieve large speedups with respect to the full order simulation (in our numerical experiments, the gain is at least of one order of magnitude and grows inversely with respect to the reduced basis size), whilst still retaining satisfactory accuracy for most cardiovascular simulations.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -182,6 +232,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-implementation"
+                           class="abstract-extender">Abstract <i id="arrow-implementation" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-implementation" class="abstract-text">
+                        The evaluation of cardiac contractility by the assessment of the ventricular systolic elastance function is clinically challenging and cannot be easily obtained at the bedside. In this work, we present a framework characterizing left ventricular systolic function from clinically readily available data, including systemic and pulmonary arterial pressure signals. We implemented and calibrated a deep neural network (DNN) consisting of a multi-layer perceptron with 4 fully connected hidden layers and with 16 neurons per layer, which was trained with data obtained from a lumped model of the cardiovascular system modeling different levels of cardiac function. The lumped model included a function of circulatory autoregulation from carotid baroreceptors in pulsatile conditions. Inputs for the DNN were systemic and pulmonary arterial pressure curves. Outputs from the DNN were parameters of the lumped model characterizing left ventricular systolic function, especially end-systolic elastance. The DNN adequately performed and accurately recovered the relevant hemodynamic parameters with a mean relative error of less than 2%. Therefore, our framework can easily provide complex physiological parameters of cardiac contractility, which could lead to the development of invaluable tools for the clinical evaluation of patients with severe cardiac dysfunction.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -196,6 +256,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-datadriven"
+                           class="abstract-extender">Abstract <i id="arrow-datadriven" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-datadriven" class="abstract-text">
+                        We are interested in the approximation of partial differential equations with a data-driven approach based on the reduced basis method and machine learning. We suppose that the phenomenon of interest can be modeled by a parametrized partial differential equation, but that the value of the physical parameters is unknown or difficult to be directly measured. Our method allows to estimate fields of interest, for instance temperature of a sample of material or velocity of a fluid, given data at a handful of points in the domain. We propose to accomplish this task with a neural network embedding a reduced basis solver as exotic activation function in the last layer. The reduced basis solver accounts for the underlying physical phenomenon and it is constructed from snapshots obtained from randomly selected values of the physical parameters during an expensive offline phase. The same full order solutions are then employed for the training of the neural network. As a matter of fact, the chosen architecture resembles an asymmetric autoencoder in which the decoder is the reduced basis solver and as such it does not contain trainable parameters. The resulting latent space of our autoencoder includes parameter-dependent quantities feeding the reduced basis solver, which – depending on the considered partial differential equation – are the values of the physical parameters themselves or the affine decomposition coefficients of the differential operators.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -216,6 +286,16 @@
                         class="link">Code</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-coupling"
+                           class="abstract-extender">Abstract <i id="arrow-coupling" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-coupling" class="abstract-text">
+                        This work focuses on the development of a non-conforming method for the coupling of PDEs based on weakly imposed transmission conditions: the continuity of the global solution is enforced by a finite number of Lagrange multipliers defined over the interfaces of adjacent subdomains. The method falls into the class of primal hybrid methods, which include also the well-known mortar method. Differently from the mortar method, we discretize the space of basis functions on the interface by spectral approximation independently of the discretization of the two adjacent domains. In particular, our approach can be regarded as a specialization of the three-field method in which the spaces used to enforce the continuity of the solution and its conormal derivative across the interface are taken equal. One of the possible choices to approximate the interface variational space – which we consider here – is by Fourier basis functions. As we show in the numerical simulations, the method is well-suited for the coupling of problems defined on globally non-conforming meshes or discretized with basis functions of different polynomial degree in each subdomain. We also investigate the possibility of coupling solutions obtained with incompatible numerical methods, namely the finite element method and isogeometric analysis.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -231,6 +311,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-rosenbrock"
+                           class="abstract-extender">Abstract <i id="arrow-rosenbrock" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-rosenbrock" class="abstract-text">
+                        We consider the Rosenbrock methods, namely a family of methods for Differential Algebraic Equations, for the solution of the unsteady three-dimensional Navier-Stokes equations. These multistage schemes are attractive for non-linear problems because they achieve high order in time, ensuring stability properties and linearizing the system to be solved at each timestep. Moreover, as they provide inexpensive ways to estimate the local truncation error, adaptive timestep strategies can be easily devised. In this work we test the Rosenbrock methods for the solution of three-dimensional unsteady incompressible flows. We derive the correct essential boundary conditions to impose at each stage in order to retain the convergence order of the schemes. Then, we consider two benchmark tests: a flow problem with imposed oscillatory pressure gradient whose analytical solution is known and the classical flow past a cylinder. In the latter case, we especially focus on the accuracy in the approximation of the drag and lift coefficients. In both benchmarks we test the performance of a time adaptivity scheme.
+                    </p>
                 </div>
             </div>
             <div class="row align-items-center publication">
@@ -245,6 +335,16 @@
                         class="link">Paper</a>
                     ]
                     </span>
+                    <span>[
+                        <span id="abstract-isogeometric"
+                           class="abstract-extender">Abstract <i id="arrow-isogeometric" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-isogeometric" class="abstract-text">
+                        We consider Isogeometric Analysis (IGA) for the numerical solution of the electrophysiology of the atria, which in this work is modeled by means of the bidomain equations on thin surfaces. First, we consider the bidomain equations coupled with the Roger–McCulloch ionic model on simple slabs. Here, our goal is to evaluate the effects of the spatial discretization by IGA and the use of different B-spline basis functions on the accuracy of the approximation, in particular regarding the accuracy of the front velocity and the dispersion error. Specifically, we consider basis functions with high polynomial degree, p, and global high order continuity, Cp-1, in the computational domain: our results show that the use of such basis functions is beneficial to the accurate approximation of the solution. Then, we consider a realistic application of the bidomain equations coupled with the Courtemanche–Ramirez–Nattel ionic model on the two human atria, which are represented by means of two NURBS surfaces.
+                    </p>
                 </div>
             </div>
         </div>

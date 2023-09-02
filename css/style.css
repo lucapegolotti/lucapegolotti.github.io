@@ -158,3 +158,22 @@ sup {
     width: 200px;
     padding: 5px;
 }
+
+.abstract-extender {
+    color:  rgb(255, 93, 190);
+    cursor: pointer;
+}
+
+.abstract-extender:hover {
+    color:  rgb(255, 175, 223);
+    cursor: pointer;
+}
+
+.abstract-text {
+    background-color:  rgb(92, 92, 92);
+    padding: 14px;
+    display: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}

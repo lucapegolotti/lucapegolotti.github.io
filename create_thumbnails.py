@@ -21,4 +21,4 @@ for f in files:
 # headshot
 image = Image.open('img/lp.jpg')
 image = ImageOps.exif_transpose(image)
-image.save('lp-lq.jpg',quality=100, optimize=False)
+image.save('img/lp-lq.jpg',quality=100, optimize=False)

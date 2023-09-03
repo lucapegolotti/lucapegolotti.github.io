@@ -1,6 +1,6 @@
 # Luca Pegolotti's personal webpage #
 
-This code implements my personal webpage, which is available here [here](https://lucapegolotti.github.io). It can also be used as a template for new webpages. If you do use it, feel free to reach to ask for support.
+This code implements my personal webpage, which is available here [here](https://lucapegolotti.github.io). It can also be used as a template for new webpages. If you do use it, feel free to reach out!
 
 ## External packages ##
 

@@ -105,6 +105,12 @@ sup {
     transition-duration: 500ms;
 }
 
+.btn-outline-light:hover, .btn-outline-light:focus, .btn-outline-light:active, .btn-outline-light.active, .open>.dropdown-toggle.btn-primary {
+    background-color:rgb(93, 107, 255);
+    color: white;
+    transition-duration: 500ms;
+}
+
 .paper-title {
     color: white;
     font-weight: bold;

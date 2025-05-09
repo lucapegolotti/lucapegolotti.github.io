@@ -22,7 +22,7 @@
             crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
             rel="stylesheet"/>
-        <title>Luca Pegolotti | Postdoc in ML for Health</title>
+        <title>Luca Pegolotti | Researcher in ML for Health</title>
     </head>
     <body>
         <div class="container">
@@ -54,6 +54,8 @@
                     style="text-align: center;">
                 <a href="https://www.linkedin.com/in/luca-pegolotti/" 
                     target="_blank"><i class="fa-brands fa-linkedin social-icon"></i></a>
+                <a href="https://scholar.google.com/citations?hl=nl&user=pDNCwVcAAAAJ&view_op=list_works&sortby=pubdate" 
+                    target="_blank"><i class="fa-brands fa-google-scholar social-icon"></i></a>
                 <a href="https://github.com/lucapegolotti" 
                     target="_blank"><i class="fa-brands fa-github social-icon"></i></a>
                 <a href="mailto:pegolotti.luca@gmail.com" 
@@ -94,16 +96,179 @@
                     <div class="section-subtitle">Authors in some papers are listed in alphabetical order. I was the main contributor in those marked with <sup>*</sup></div>
                 </div>
             </div>
+
+            <!-- Copy from here to add new papers -->
+            <div class="row align-items-center publication">
+                <div class="col-md-3 justify-content-center align-middle">
+                    <img class="img-fluid paper-img" src="img/bayesian_0d3d.png">
+                </div>
+                <div class="col-md-9 justify-content-center align-middle">
+                    <div class="publication-text">Richter, J., Nitzler, J., Pegolotti, L., Menon, K., Biehler, J., Wall W. A., Schiavazzi D. E., Marsden A. L., & Pfaller M. R. <span class="paper-title">Bayesian Windkessel calibration using optimized zero-dimensional surrogate models.</span> Philosophical Transactions A 383 (2292), 20240223</div>
+                    <span>[
+                    <a href="https://www.nature.com/articles/s41746-025-01542-0" 
+                        target="_blank"
+                        class="link">Paper</a>
+                    ]
+                    </span>
+                    <span>[
+                        <span id="abstract-gnn1d"
+                            class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        Bayesian boundary condition (BC) calibration approaches from clinical measurements have successfully quantified inherent uncertainties in cardiovascular fluid dynamics simulations. However, estimating the posterior distribution for all BC parameters in three-dimensional (3D) simulations has been unattainable due to infeasible computational demand. We propose an efficient method to identify Windkessel parameter posteriors: We only evaluate the 3D model once for an initial choice of BCs and use the result to create a highly accurate zero-dimensional (0D) surrogate. We then perform Sequential Monte Carlo (SMC) using the optimized 0D model to derive the high-dimensional Windkessel BC posterior distribution. Optimizing 0D models to match 3D data a priori lowered their median approximation error by nearly one order of magnitude in 72 publicly available vascular models. The optimized 0D models generalized well to a wide range of BCs. Using SMC, we evaluated the high-dimensional Windkessel parameter posterior for different measured signal-to-noise ratios in a vascular model, which we validated against a 3D posterior. The minimal computational demand of our method using a single 3D simulation, combined with the open-source nature of all software and data used in this work, will increase access and efficiency of Bayesian Windkessel calibration in cardiovascular fluid dynamics simulations.
+                    </p>
+                </div>
+            </div>
+            <!-- until here -->
+
+            <!-- Copy from here to add new papers -->
+            <div class="row align-items-center publication">
+                <div class="col-md-3 justify-content-center align-middle">
+                    <img class="img-fluid paper-img" src="img/red_teaming.png">
+                </div>
+                <div class="col-md-9 justify-content-center align-middle">
+                    <div class="publication-text">Many authors contributed to this paper. <span class="paper-title">Red teaming ChatGPT in medicine to yield real-world insights on model behavior.</span> npj Digital Medicine 8 (1), 149</div>
+                    <span>[
+                    <a href="https://www.nature.com/articles/s41746-025-01542-0" 
+                        target="_blank"
+                        class="link">Paper</a>
+                    ]
+                    </span>
+                    <span>[
+                        <span id="abstract-gnn1d"
+                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        Red teaming, the practice of adversarially exposing unexpected or undesired model behaviors, is critical towards improving equity and accuracy of large language models, but non-model creator-affiliated red teaming is scant in healthcare. We convened teams of clinicians, medical and engineering students, and technical professionals (80 participants total) to stress-test models with real-world clinical cases and categorize inappropriate responses along axes of safety, privacy, hallucinations/accuracy, and bias. Six medically-trained reviewers re-analyzed prompt-response pairs and added qualitative annotations. Of 376 unique prompts (1504 responses), 20.1% were inappropriate (GPT-3.5: 25.8%; GPT-4.0: 16%; GPT-4.0 with Internet: 17.8%). Subsequently, we show the utility of our benchmark by testing GPT-4o, a model released after our event (20.4% inappropriate). 21.5% of responses appropriate with GPT-3.5 were inappropriate in updated models. We share insights for constructing red teaming prompts, and present our benchmark for iterative model assessments.
+                    </p>
+                </div>
+            </div>
+            <!-- until here -->
+
+            <!-- Copy from here to add new papers -->
+            <div class="row align-items-center publication">
+                <div class="col-md-3 justify-content-center align-middle">
+                    <img class="img-fluid paper-img" src="img/pressure_differential.png">
+                </div>
+                <div class="col-md-9 justify-content-center align-middle">
+                    <div class="publication-text">Rubio, N. L., Pegolotti, L., Pfaller, M. R., Darve, E., & Marsden, A. L. (2025). <span class="paper-title">Hybrid physics-based and data-driven modeling of vascular bifurcation pressure differences. </span> Computers in Biology and Medicine 184, 109420</div>
+                    <span>[
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482524015051" 
+                        target="_blank"
+                        class="link">Paper</a>
+                    ]
+                    </span>
+
+                    <span>[
+                        <span id="abstract-gnn1d"
+                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        Reduced-order models allow for the simulation of blood flow in patient-specific vasculatures. They offer a significant reduction in computational cost and wait time compared to traditional computational fluid dynamics models. Unfortunately, due to the simplifications made in their formulations, reduced-order models can suffer from significantly reduced accuracy. One common simplifying assumption is that of continuity of static or total pressure over vascular bifurcations. In many cases, this assumption has been shown to introduce significant errors in pressure predictions. We propose a model to account for this pressure difference, with the ultimate goal of increasing the accuracy of cardiovascular reduced-order models. Our model successfully uses a structure common in existing reduced-order models in conjunction with machine-learning techniques to predict the pressure difference over a vascular bifurcation. We analyze the performance of our model on steady and transient flows, testing it on three bifurcation cohorts representing three different bifurcation geometric types. We find that our model makes significantly more accurate predictions than other models for approximating bifurcation pressure losses commonly used in the reduced-order cardiovascular modeling community. We also compare the efficacy of different machine-learning techniques and observe that a neural network performs most robustly. Additionally, we consider two different model modalities: one in which the model is fit using both steady and transient flows, and one in which it is optimized for performance in transient flows. We discuss the trade-off between the physical interpretability associated with the first option and the improved accuracy in transient flows associated with the latter option. We also demonstrate the model’s ability to generalize by testing it on a combined dataset containing two different bifurcation types. This work marks a step towards improving the accuracy of cardiovascular reduced-order models, thereby increasing their utility for cardiovascular flow modeling.
+                    </p>
+                </div>
+            </div>
+            <!-- until here -->
+
+            <!-- Copy from here to add new papers -->
+            <div class="row align-items-center publication">
+                <div class="col-md-3 justify-content-center align-middle">
+                    <img class="img-fluid paper-img" src="img/leveraging_cardio.png">
+                </div>
+                <div class="col-md-9 justify-content-center align-middle">
+                    <div class="publication-text">Manduchi, L., Wehenkel, A., Behrman, A., Pegolotti, L., Miller, A. C., Sener, O., Cuturi, M., Sapiro, G., & Jacobsen, J. H. (2025). <span class="paper-title">Leveraging Cardiovascular Simulations for In-Vivo Prediction of Cardiac Biomarkers.</span> arXiv preprint arXiv:2412.17542</div>
+                    <span>[
+                    <a href="https://arxiv.org/abs/2412.17542" 
+                        target="_blank"
+                        class="link">arXiv preprint</a>
+                    ]
+                    </span>
+
+                    <span>[
+                        <span id="abstract-gnn1d"
+                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        Whole-body hemodynamics simulators, which model blood flow and pressure waveforms as functions of physiological parameters, are now essential tools for studying cardiovascular systems. However, solving the corresponding inverse problem of mapping observations (e.g., arterial pressure waveforms at specific locations in the arterial network) back to plausible physiological parameters remains challenging. Leveraging recent advances in simulation-based inference, we cast this problem as statistical inference by training an amortized neural posterior estimator on a newly built large dataset of cardiac simulations that we publicly release. To better align simulated data with real-world measurements, we incorporate stochastic elements modeling exogenous effects. The proposed framework can further integrate in-vivo data sources to refine its predictive capabilities on real-world data. In silico, we demonstrate that the proposed framework enables finely quantifying uncertainty associated with individual measurements, allowing trustworthy prediction of four biomarkers of clinical interest--namely Heart Rate, Cardiac Output, Systemic Vascular Resistance, and Left Ventricular Ejection Time--from arterial pressure waveforms and photoplethysmograms. Furthermore, we validate the framework in vivo, where our method accurately captures temporal trends in CO and SVR monitoring on the VitalDB dataset. Finally, the predictive error made by the model monotonically increases with the predicted uncertainty, thereby directly supporting the automatic rejection of unusable measurements.
+                    </p>
+                </div>
+            </div>
+            <!-- until here -->
+
+            <div class="row align-items-center publication">
+                <div class="col-md-3 justify-content-center align-middle">
+                    <img class="img-fluid paper-img" src="img/novel_lstm.png">
+                </div>
+                <div class="col-md-9 justify-content-center align-middle">
+                    <div class="publication-text">Iacovelli, A. Pegolotti, L., Pfaller, M. R., Salvador, M., Stoppa, E., Santambrogio, M. D, & Marsden, A. L. (2023). <span class="paper-title">A Novel LSTM and Graph Neural Networks Approach for Cardiovascular Simulations.</span> 2024 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI).</div>
+                    <span>[
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10913800" 
+                        target="_blank"
+                        class="link">Paper</a>
+                    ]
+                    </span>
+                    <span>[
+                        <span id="abstract-gnn1d"
+                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        We propose a novel method that integrates Long Short-Term Memory (LSTM) networks with Graph Neural Networks (GNNs) to build reduced-order models of cardiovascular simulations. Reduced-order models are often used as an alternative to full three-dimensional cardiovascular simulations, providing a way to simplify the computational demands associated with fully detailed 3D simulations. The proposed method encodes blood fluid dynamics within a MeshGraphNet-based framework, which is particularly effective in modeling complex physical systems by leveraging graph structures to represent the state of the system. Our method extends the capabilities of the original framework by incorporating LSTMs to capture long-term dependencies, thereby improving predictive accuracy and significantly reducing the computational resources required for the training process. This method achieves errors below 2% for blood pressure and flow rate predictions, showcasing a 65% improvement in average error rates compared to the MeshGraphNet-based framework and a notable increase in computational efficiency, reducing training time by at least 57%. Our method also introduces the ability to adapt the simulation to different cardiac cycles depending on the patient, providing a robust and efficient tool for patient-specific cardiovascular modeling.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center publication">
+                <div class="col-md-3 justify-content-center align-middle">
+                    <img class="img-fluid paper-img" src="img/rom_book.png">
+                </div>
+                <div class="col-md-9 justify-content-center align-middle">
+                    <div class="publication-text">Pfaller, M. R., Pegolotti, L.,, Rubio, N. L., Pham, J., & Marsden, A. L. (2024). <span class="paper-title">Reduced-order modeling of cardiovascular hemodynamics.</span> Biomechanics of the Aorta</div>
+                    <span>[
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/B9780323954846000166" 
+                        target="_blank"
+                        class="link">Book chapter</a>
+                    ]
+                    </span>
+                    <span>[
+                        <span id="abstract-gnn1d"
+                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                    ]
+                    </span>
+                </div>
+                <div class="col-md-12 justify-content-center">
+                    <p id="abstract-text-gnn1d" class="abstract-text">
+                        Three-dimensional cardiovascular fluid dynamics simulations typically require hours to days of computing time on a high-performance computing cluster. In many applications, reduced-order models can deliver a fast yet accurate approximation of key quantities of interest, such as bulk flow or pressure waveforms at vessel outlets. Such models not only hold independent value but can also be used to accelerate uncertainty quantification, optimization studies, and inverse problems. In this chapter, we review physics-based and data-driven models and highlight popular computational techniques to solve them. Physics-based models are obtained by making simplifying assumptions on the nature of flow in blood vessels. By contrast, data-driven models leverage existing solutions to reduce computational complexity. Finally, we briefly outline strategies to generate reduced-order models, published benchmarks, and available open science resources.
+
+                    </p>
+                </div>
+            </div>
+
+            <!-- Copy from here to add new papers -->
             <div class="row align-items-center publication">
                 <div class="col-md-3 justify-content-center align-middle">
                     <img class="img-fluid paper-img" src="img/gnn_1d.gif">
                 </div>
                 <div class="col-md-9 justify-content-center align-middle">
-                    <div class="publication-text">Pegolotti, L.,<sup>*</sup> Pfaller, M. R., Rubio, N. L., Ding, K., Brufau, R. B., Darve, E., & Marsden, A. L. (2023). <span class="paper-title">Learning Reduced-Order Models for Cardiovascular Simulations with Graph Neural Networks.</span> arXiv preprint arXiv:2303.07310.</div>
+                    <div class="publication-text">Pegolotti, L.,<sup>*</sup> Pfaller, M. R., Rubio, N. L., Ding, K., Brufau, R. B., Darve, E., & Marsden, A. L. (2024). <span class="paper-title">Learning Reduced-Order Models for Cardiovascular Simulations with Graph Neural Networks.</span> Computers in biology and medicine 168, 107676</div>
                     <span>[
-                    <a href="https://arxiv.org/abs/2303.07310" 
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482523011411" 
                         target="_blank"
-                        class="link">arXiv paper</a>
+                        class="link">Paper</a>
                     ]
                     </span>
                     <span>[
@@ -120,10 +285,11 @@
                 </div>
                 <div class="col-md-12 justify-content-center">
                     <p id="abstract-text-gnn1d" class="abstract-text">
-                        Reduced-order models based on physics are a popular choice in cardiovascular modeling due to their efficiency, but they may experience reduced accuracy when working with anatomies that contain numerous junctions or pathological conditions. We develop one-dimensional reduced-order models that simulate blood flow dynamics using a graph neural network trained on three-dimensional hemodynamic simulation data. Given the initial condition of the system, the network iteratively predicts the pressure and flow rate at the vessel centerline nodes. Our numerical results demonstrate the accuracy and generalizability of our method in physiological geometries comprising a variety of anatomies and boundary conditions. Our findings demonstrate that our approach can achieve errors below 2% and 3% for pressure and flow rate, respectively, provided there is adequate training data. As a result, our method exhibits superior performance compared to physics-based one-dimensional models, while maintaining high efficiency at inference time.
+                        Reduced-order models based on physics are a popular choice in cardiovascular modeling due to their efficiency, but they may experience loss in accuracy when working with anatomies that contain numerous junctions or pathological conditions. We develop one-dimensional reduced-order models that simulate blood flow dynamics using a graph neural network trained on three-dimensional hemodynamic simulation data. Given the initial condition of the system, the network iteratively predicts the pressure and flow rate at the vessel centerline nodes. Our numerical results demonstrate the accuracy and generalizability of our method in physiological geometries comprising a variety of anatomies and boundary conditions. Our findings demonstrate that our approach can achieve errors below 3% for pressure and flow rate, provided there is adequate training data. As a result, our method exhibits superior performance compared to physics-based one-dimensional models while maintaining high efficiency at inference time.
                     </p>
                 </div>
             </div>
+            <!-- until here -->
             <div class="row align-items-center publication">
                 <div class="col-md-3 justify-content-center align-middle">
                     <img class="img-fluid paper-img" src="img/beyond-cfd-lq.jpg">

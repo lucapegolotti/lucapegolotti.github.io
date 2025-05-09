@@ -111,13 +111,13 @@
                     ]
                     </span>
                     <span>[
-                        <span id="abstract-gnn1d"
-                            class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                        <span id="abstract-bayesian"
+                            class="abstract-extender">Abstract <i id="arrow-bayesian" class="fa-solid fa-caret-right"></i></span>
                     ]
                     </span>
                 </div>
                 <div class="col-md-12 justify-content-center">
-                    <p id="abstract-text-gnn1d" class="abstract-text">
+                    <p id="abstract-text-bayesian" class="abstract-text">
                         Bayesian boundary condition (BC) calibration approaches from clinical measurements have successfully quantified inherent uncertainties in cardiovascular fluid dynamics simulations. However, estimating the posterior distribution for all BC parameters in three-dimensional (3D) simulations has been unattainable due to infeasible computational demand. We propose an efficient method to identify Windkessel parameter posteriors: We only evaluate the 3D model once for an initial choice of BCs and use the result to create a highly accurate zero-dimensional (0D) surrogate. We then perform Sequential Monte Carlo (SMC) using the optimized 0D model to derive the high-dimensional Windkessel BC posterior distribution. Optimizing 0D models to match 3D data a priori lowered their median approximation error by nearly one order of magnitude in 72 publicly available vascular models. The optimized 0D models generalized well to a wide range of BCs. Using SMC, we evaluated the high-dimensional Windkessel parameter posterior for different measured signal-to-noise ratios in a vascular model, which we validated against a 3D posterior. The minimal computational demand of our method using a single 3D simulation, combined with the open-source nature of all software and data used in this work, will increase access and efficiency of Bayesian Windkessel calibration in cardiovascular fluid dynamics simulations.
                     </p>
                 </div>
@@ -138,13 +138,13 @@
                     ]
                     </span>
                     <span>[
-                        <span id="abstract-gnn1d"
-                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                        <span id="abstract-chatgpt"
+                           class="abstract-extender">Abstract <i id="arrow-chatgpt" class="fa-solid fa-caret-right"></i></span>
                     ]
                     </span>
                 </div>
                 <div class="col-md-12 justify-content-center">
-                    <p id="abstract-text-gnn1d" class="abstract-text">
+                    <p id="abstract-text-chatgpt" class="abstract-text">
                         Red teaming, the practice of adversarially exposing unexpected or undesired model behaviors, is critical towards improving equity and accuracy of large language models, but non-model creator-affiliated red teaming is scant in healthcare. We convened teams of clinicians, medical and engineering students, and technical professionals (80 participants total) to stress-test models with real-world clinical cases and categorize inappropriate responses along axes of safety, privacy, hallucinations/accuracy, and bias. Six medically-trained reviewers re-analyzed prompt-response pairs and added qualitative annotations. Of 376 unique prompts (1504 responses), 20.1% were inappropriate (GPT-3.5: 25.8%; GPT-4.0: 16%; GPT-4.0 with Internet: 17.8%). Subsequently, we show the utility of our benchmark by testing GPT-4o, a model released after our event (20.4% inappropriate). 21.5% of responses appropriate with GPT-3.5 were inappropriate in updated models. We share insights for constructing red teaming prompts, and present our benchmark for iterative model assessments.
                     </p>
                 </div>
@@ -166,13 +166,13 @@
                     </span>
 
                     <span>[
-                        <span id="abstract-gnn1d"
-                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                        <span id="abstract-bifurcations"
+                           class="abstract-extender">Abstract <i id="arrow-bifurcations" class="fa-solid fa-caret-right"></i></span>
                     ]
                     </span>
                 </div>
                 <div class="col-md-12 justify-content-center">
-                    <p id="abstract-text-gnn1d" class="abstract-text">
+                    <p id="abstract-text-bifurcations" class="abstract-text">
                         Reduced-order models allow for the simulation of blood flow in patient-specific vasculatures. They offer a significant reduction in computational cost and wait time compared to traditional computational fluid dynamics models. Unfortunately, due to the simplifications made in their formulations, reduced-order models can suffer from significantly reduced accuracy. One common simplifying assumption is that of continuity of static or total pressure over vascular bifurcations. In many cases, this assumption has been shown to introduce significant errors in pressure predictions. We propose a model to account for this pressure difference, with the ultimate goal of increasing the accuracy of cardiovascular reduced-order models. Our model successfully uses a structure common in existing reduced-order models in conjunction with machine-learning techniques to predict the pressure difference over a vascular bifurcation. We analyze the performance of our model on steady and transient flows, testing it on three bifurcation cohorts representing three different bifurcation geometric types. We find that our model makes significantly more accurate predictions than other models for approximating bifurcation pressure losses commonly used in the reduced-order cardiovascular modeling community. We also compare the efficacy of different machine-learning techniques and observe that a neural network performs most robustly. Additionally, we consider two different model modalities: one in which the model is fit using both steady and transient flows, and one in which it is optimized for performance in transient flows. We discuss the trade-off between the physical interpretability associated with the first option and the improved accuracy in transient flows associated with the latter option. We also demonstrate the model’s ability to generalize by testing it on a combined dataset containing two different bifurcation types. This work marks a step towards improving the accuracy of cardiovascular reduced-order models, thereby increasing their utility for cardiovascular flow modeling.
                     </p>
                 </div>
@@ -194,13 +194,13 @@
                     </span>
 
                     <span>[
-                        <span id="abstract-gnn1d"
-                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                        <span id="abstract-leveraging"
+                           class="abstract-extender">Abstract <i id="arrow-leveraging" class="fa-solid fa-caret-right"></i></span>
                     ]
                     </span>
                 </div>
                 <div class="col-md-12 justify-content-center">
-                    <p id="abstract-text-gnn1d" class="abstract-text">
+                    <p id="abstract-text-leveraging" class="abstract-text">
                         Whole-body hemodynamics simulators, which model blood flow and pressure waveforms as functions of physiological parameters, are now essential tools for studying cardiovascular systems. However, solving the corresponding inverse problem of mapping observations (e.g., arterial pressure waveforms at specific locations in the arterial network) back to plausible physiological parameters remains challenging. Leveraging recent advances in simulation-based inference, we cast this problem as statistical inference by training an amortized neural posterior estimator on a newly built large dataset of cardiac simulations that we publicly release. To better align simulated data with real-world measurements, we incorporate stochastic elements modeling exogenous effects. The proposed framework can further integrate in-vivo data sources to refine its predictive capabilities on real-world data. In silico, we demonstrate that the proposed framework enables finely quantifying uncertainty associated with individual measurements, allowing trustworthy prediction of four biomarkers of clinical interest--namely Heart Rate, Cardiac Output, Systemic Vascular Resistance, and Left Ventricular Ejection Time--from arterial pressure waveforms and photoplethysmograms. Furthermore, we validate the framework in vivo, where our method accurately captures temporal trends in CO and SVR monitoring on the VitalDB dataset. Finally, the predictive error made by the model monotonically increases with the predicted uncertainty, thereby directly supporting the automatic rejection of unusable measurements.
                     </p>
                 </div>
@@ -220,13 +220,13 @@
                     ]
                     </span>
                     <span>[
-                        <span id="abstract-gnn1d"
-                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                        <span id="abstract-lstm"
+                           class="abstract-extender">Abstract <i id="arrow-lstm" class="fa-solid fa-caret-right"></i></span>
                     ]
                     </span>
                 </div>
                 <div class="col-md-12 justify-content-center">
-                    <p id="abstract-text-gnn1d" class="abstract-text">
+                    <p id="abstract-text-lstm" class="abstract-text">
                         We propose a novel method that integrates Long Short-Term Memory (LSTM) networks with Graph Neural Networks (GNNs) to build reduced-order models of cardiovascular simulations. Reduced-order models are often used as an alternative to full three-dimensional cardiovascular simulations, providing a way to simplify the computational demands associated with fully detailed 3D simulations. The proposed method encodes blood fluid dynamics within a MeshGraphNet-based framework, which is particularly effective in modeling complex physical systems by leveraging graph structures to represent the state of the system. Our method extends the capabilities of the original framework by incorporating LSTMs to capture long-term dependencies, thereby improving predictive accuracy and significantly reducing the computational resources required for the training process. This method achieves errors below 2% for blood pressure and flow rate predictions, showcasing a 65% improvement in average error rates compared to the MeshGraphNet-based framework and a notable increase in computational efficiency, reducing training time by at least 57%. Our method also introduces the ability to adapt the simulation to different cardiac cycles depending on the patient, providing a robust and efficient tool for patient-specific cardiovascular modeling.
                     </p>
                 </div>
@@ -245,13 +245,13 @@
                     ]
                     </span>
                     <span>[
-                        <span id="abstract-gnn1d"
-                           class="abstract-extender">Abstract <i id="arrow-gnn1d" class="fa-solid fa-caret-right"></i></span>
+                        <span id="abstract-roms"
+                           class="abstract-extender">Abstract <i id="arrow-roms" class="fa-solid fa-caret-right"></i></span>
                     ]
                     </span>
                 </div>
                 <div class="col-md-12 justify-content-center">
-                    <p id="abstract-text-gnn1d" class="abstract-text">
+                    <p id="abstract-text-roms" class="abstract-text">
                         Three-dimensional cardiovascular fluid dynamics simulations typically require hours to days of computing time on a high-performance computing cluster. In many applications, reduced-order models can deliver a fast yet accurate approximation of key quantities of interest, such as bulk flow or pressure waveforms at vessel outlets. Such models not only hold independent value but can also be used to accelerate uncertainty quantification, optimization studies, and inverse problems. In this chapter, we review physics-based and data-driven models and highlight popular computational techniques to solve them. Physics-based models are obtained by making simplifying assumptions on the nature of flow in blood vessels. By contrast, data-driven models leverage existing solutions to reduce computational complexity. Finally, we briefly outline strategies to generate reduced-order models, published benchmarks, and available open science resources.
 
                     </p>
